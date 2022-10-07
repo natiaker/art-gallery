@@ -47,7 +47,7 @@ h1 {
 }
 
 p {
-    max-width: 343px;
+    max-width: 550px;
     font-family: 'Outfit', sans-serif;
     font-size: var(--body-s);
     line-height: var(--line-spacing-xxs);
@@ -130,7 +130,7 @@ h2 {
 }
 
 #text-box p {
-    max-width: 295px;
+    max-width: 550px;
     color: var(--white);
 }
 
