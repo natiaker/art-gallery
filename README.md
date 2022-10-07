@@ -14,8 +14,8 @@
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/natiaker/skilled-elearning-landing-page.git)
-- Live Site URL: [Live site URL](https://natiaker.github.io/skilled-elearning-landing-page/starter-code/pages/main/)
+- Solution URL: [Solution URL](https://github.com/natiaker/art-gallery.git)
+- Live Site URL: [Live site URL](https://natiaker.github.io/art-gallery/starter-code/)
 
 ### Built with
 
