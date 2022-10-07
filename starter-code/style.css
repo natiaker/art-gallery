@@ -1,0 +1,129 @@
+:root{
+    /* colors  */
+    --gold: #D5966C;
+    --almost-black: #151515;
+    --dark-grey: #444444;
+    --white: #FFFFFF;
+
+    /* typography  */
+    /* font sizes  */
+    --heading-xl: 96px;
+    --heading-l: 70px;
+    --heading-m: 60px;
+    --heading-s: 36px;
+    --body-m: 22px;
+    --body-s: 18px;
+
+    /* line spacing */
+    --line-spacing-xl: 88px;
+    --line-spacing-l: 70px;
+    --line-spacing-m: 50px;
+    --line-spacing-s: 36px;
+    --line-spacing-xs: 32px;
+    --line-spacing-xxs: 28px;
+}
+
+/* MOBILE FIRST  */
+
+/* Start Section  */
+.image-mobile {
+    width: 100%;
+}
+
+.image-tablet, .image-desktop {
+    display: none;
+}
+
+.start-section-content {
+    padding: 0 16px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: var(--heading-l);
+    line-height: var(--line-spacing-l);
+    color: var(--almost-black);
+    margin: 32px 0;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: var(--body-s);
+    line-height: var(--line-spacing-xxs);
+    color: var(--dark-grey);
+}
+
+.start-section-content a {
+    font-family: 'Big Shoulders Display', cursive;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: var(--white);
+    background-color: var(--almost-black);
+    padding: 24px 35px;
+    margin-top: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+/* Body Section  */
+#body-section {
+    margin: 120px 0;
+    padding: 0 16px;
+}
+
+#body-section h2 {
+    margin: 25px 0 21px;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: var(--almost-black);
+}
+
+#body-section p {
+    margin: 21px 0 16px;
+}
+
+#body-section img {
+    margin-top: 16px;
+}
+
+#text-box {
+    background-color: var(--almost-black);
+    margin-top: 16px;
+    padding: 48px 24px;
+}
+
+#text-box h2 {
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+#text-box p {
+    color: var(--white);
+}
+
+
+/* footer  */
+footer {
+    background-color: var(--almost-black);
+}
+
+.footer-content {
+    padding: 48px 24px;
+}
+
+.footer-content p{
+    margin: 38px 0;
+    color: var(--white);
+}
+
+.social-icons {
+    display: flex;
+}
