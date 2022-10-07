@@ -47,24 +47,44 @@ h1 {
 }
 
 p {
+    max-width: 343px;
     font-family: 'Outfit', sans-serif;
     font-size: var(--body-s);
     line-height: var(--line-spacing-xxs);
     color: var(--dark-grey);
 }
 
+.main-button {
+    width: 260px;
+    background: linear-gradient(
+        to right,
+        var(--almost-black) 0%,
+        var(--almost-black) 80%,
+        var(--gold) 80%,
+        var(--gold) 100% );
+}
+
 .start-section-content a {
     font-family: 'Big Shoulders Display', cursive;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: 275px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 3.63636px;
     color: var(--white);
-    background-color: var(--almost-black);
     padding: 24px 35px;
     margin-top: 32px;
     text-transform: uppercase;
     text-decoration: none;
+}
+.main-button:hover {
+    background: linear-gradient(
+        to right,
+        var(--gold) 0%,
+        var(--gold) 80%,
+        var(--almost-black) 80%,
+        var(--almost-black) 100% );
 }
 
 h2 {
@@ -86,8 +106,12 @@ h2 {
     color: var(--almost-black);
 }
 
+.desktop-br {
+    display: none;
+}
+
 #body-section p {
-    margin: 21px 0 16px;
+    margin: 21px 0 32px;
 }
 
 #body-section img {
@@ -102,10 +126,11 @@ h2 {
 
 #text-box h2 {
     color: var(--white);
-    margin-bottom: 24px;
+    margin: 0 0 24px;
 }
 
 #text-box p {
+    max-width: 295px;
     color: var(--white);
 }
 
@@ -116,7 +141,7 @@ footer {
 }
 
 .footer-content {
-    padding: 48px 24px;
+    padding: 48px 32px;
 }
 
 .footer-content p{
@@ -126,4 +151,8 @@ footer {
 
 .social-icons {
     display: flex;
+}
+
+.social-icons a {
+    margin-right: 20px;
 }
