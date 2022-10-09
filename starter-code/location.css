@@ -45,7 +45,7 @@
 }
 
 .home-button a {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display';
     display: flex;
     justify-content: space-between;
     width: 275px;
@@ -87,7 +87,7 @@ p {
 
 h2 {
     color: var(--white);
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display';
     font-weight: 900;
     font-size: 50px;
     line-height: 45px;
@@ -131,3 +131,69 @@ footer {
 .social-icons a {
     margin-right: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    /* head section  */
+    #head-section {
+        background-image: url(assets/tablet/image-map@2x.png);
+        height: 600px;
+        min-width: 768px;
+        padding-left: 40px;
+    }
+
+    /* location section */
+    .location {
+        display: flex;
+        gap: 10%;
+        padding: 88px 40px 80px;
+    }
+
+    p {
+        max-width: 515px;
+    }
+
+    /* footer */
+    .footer-content {
+        padding: 56px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-content p{
+        min-width: 297px;
+        margin: 0 133px 0 65px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        min-width: 120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* head section  */
+    #head-section {
+        background-image: url(assets/desktop/image-map@2x.png);
+        height: 600px;
+        min-width: 1440px;
+        padding-left: 156px;
+    }
+
+    /* location section */
+    .location {
+        display: flex;
+        gap: 20%;
+        padding: 104px 165px 128px;
+    }
+
+    p {
+        max-width: 515px;
+    }
+
+    /* footer */
+    .footer-content {
+        padding: 80px 165px;
+    }
+}
+
