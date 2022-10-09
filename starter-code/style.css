@@ -195,8 +195,8 @@ footer {
 
     .grid1 {
         display: grid;
-        grid-template-columns: 30% 63%;
-        gap: 7%;
+        grid-template-columns: 30fr 63fr;
+        gap: 68px;
         margin-bottom: 10px;
     }
 
@@ -214,8 +214,8 @@ footer {
 
     .grid2 {
         display: grid;
-        grid-template-columns: 50% 49%;
-        gap: 1%;
+        grid-template-columns: 50fr 49fr;
+        gap: 10px;
     }
 
     .item3 {
