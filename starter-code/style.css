@@ -334,14 +334,14 @@ footer {
     }
 
     .grid1 {
-        grid-template-columns: 26% 60%;
-        gap: 14%;
+        grid-template-columns: 26fr 60fr;
+        gap: 125px;
         margin-bottom: 30px;
     }
 
     .grid2 {
-        grid-template-columns: 50% 47%;
-        gap: 3%;
+        grid-template-columns: 50fr 47fr;
+        gap: 30px;
     }
 
     #text-box {
