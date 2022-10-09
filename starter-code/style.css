@@ -358,4 +358,7 @@ footer {
     .footer-content {
         padding: 80px 165px;
     }
+    .footer-content p {
+        min-width: 430px;
+    }
 }
