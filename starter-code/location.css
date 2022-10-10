@@ -132,6 +132,14 @@ footer {
     margin-right: 20px;
 }
 
+.social-icons a img {
+    transition: 0.5s ease;
+}
+
+.social-icons a img:hover {
+    filter: invert(100%) sepia(0%) saturate(3518%) hue-rotate(158deg) brightness(107%) contrast(98%);
+}
+
 @media screen and (min-width: 768px) {
     /* head section  */
     #head-section {

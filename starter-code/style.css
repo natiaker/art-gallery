@@ -158,6 +158,14 @@ footer {
     margin-right: 20px;
 }
 
+.social-icons a img {
+    transition: 0.5s ease;
+}
+
+.social-icons a img:hover {
+    filter: invert(67%) sepia(13%) saturate(1321%) hue-rotate(338deg) brightness(100%) contrast(83%);
+}
+
 @media screen and (min-width: 768px){
     /* start section */
     .image-hero-tablet{
